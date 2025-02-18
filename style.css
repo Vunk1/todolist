@@ -1,0 +1,177 @@
+.container {
+    min-height: 500px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: auto;
+    background-color: whitesmoke;
+    overflow: hidden;
+    word-wrap: break-word;
+    position: relative;
+
+}
+
+
+.header {
+    height: 50px;
+    width: 400px;
+    border: 1px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: rgb(211, 188, 157);
+    border-bottom: 5px solid rgb(228, 102, 102);
+
+}
+
+h1 {
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
+}
+
+/* .belumadacatatan {
+    border: 1px solid #a5a5a5;
+    width: 180px;
+    color: #a5a5a5;
+    margin-left: 8px;
+    margin-top: 10px;
+    border-radius: 5px;
+
+} */
+
+
+li {
+    width: 80%;
+    background-color: bisque;
+    border: 1px solid #a89b9b;
+    margin-bottom: 5px;
+    padding: 2px;
+    position: relative;
+    /* min-height: 25px;
+    width: 300px;
+    overflow: hidden;
+    word-wrap: break-word; */       
+    /* tidak perlu di atur word wrap nya, tidak pakai height aja biar nnti tinggi nya otomatis */
+}
+
+
+.newbtn {
+    position: absolute;
+    right: -20px;
+    top: 0;
+    margin: auto;
+    
+}
+
+
+.description {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    overflow: hidden;
+    display: none;
+}
+
+.active, .newbtn:hover {
+    background-color: #bdbaba;
+}
+
+
+li:hover {
+    color: #bdbaba;
+    transition: color 0.5;
+    padding: 4px;
+}
+
+.pbaru {
+    font-size: 12px;
+    /* display: inline-block; */
+}
+
+
+.addboxlist {
+    /* border: 1px brown solid; */
+    margin-top: 20px;
+    /* float: left; */
+    margin-left: 10px;
+    position: absolute;
+    /* bottom: 0; */
+    bottom: 20px;
+
+}
+
+i {
+    color: #a89b9b;
+}
+
+.inputtext {
+    background-color: #f0f0f0; /* Ubah warna latar */
+    color: #333; /* Ubah warna teks */
+    border: 2px solid #007bff; /* Ubah border */
+    width: 250px;
+    height: 40px;
+    border-radius: 10px; /* Membuat input menjadi melingkar */
+  }
+
+.inputtmbhcat {
+    background-color: #f0f0f0; /* Ubah warna latar */
+    color: #333; /* Ubah warna teks */
+    border: 2px solid #007bff; /* Ubah border */
+    border-radius: 10px;
+    height: 200px;
+    width: 145px;
+}
+
+
+.tambahkan {
+    background-color: #f0f0f0; /* Ubah warna latar */
+    color: #333; /* Ubah warna teks */
+    border: 2px solid #007bff; /* Ubah border */
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+}
+
+.newhapus{
+    float: right;
+}
+
+/* .clearleft {
+    clear: left;
+} */
+
+/* .clearleftaddbox {
+    clear: left;
+} */
+
+/* .rightboxdesc { */
+    /* border: 1px solid black; */
+    /* margin-left: 230px; */
+    /* position: absolute; */
+    /* top: 75px; */
+    /* float: left; */
+    
+/* } */
+
+.inputtext {
+    margin: auto;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+
+.divdesc {
+    background-color: rgb(224, 217, 217);
+    /* width: 120px; */
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+
+/* .divesclist {
+    height: 50px;
+    width: 150px;
+    border: 1px solid black;
+    background-color: #bdbaba;
+} */
